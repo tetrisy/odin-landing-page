@@ -208,3 +208,14 @@ h2 {
     font-weight: 600;
     padding: 5px 25px;
 }
+
+/* Footer */
+
+footer {
+    background-color: #1f2937;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #f9faf8;
+}
