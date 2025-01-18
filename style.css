@@ -174,3 +174,37 @@ h2 {
 }
 
 
+/* Action */
+
+.action {
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.action .container {
+    background-color: #3882f6;
+    width: 960px;
+    box-sizing: border-box;
+    padding: 20px 100px;
+    justify-content: center;
+    align-items: center;
+    height: 120px;
+    border-radius: 7px;
+}
+
+.action-text h4, .action-text p {
+    margin: 0;
+    color: #f9faf8;
+}
+
+.action button {
+    margin-left: auto;
+    background-color: #3882f6;
+    border: 2px solid #f9faf8;
+    color: #f9faf8;
+    border-radius: 5px;
+    font-weight: 600;
+    padding: 5px 25px;
+}
