@@ -4,6 +4,14 @@
   font-family: "Roboto", sans-serif;
 }
 
+/* General */
+
+.btn {
+  border-radius: 5px;
+  border: none;
+  padding: 8px 40px;
+}
+
 /* Header */
 
 header {
@@ -28,4 +36,50 @@ header ul {
 header a {
   text-decoration: none;
   color: #e5e7eb;
+  font-size: 18px;
+}
+
+/* Hero */
+
+.hero {
+  background-color: #1f2937;
+  display: flex;
+  padding: 150px 200px;
+  gap: 150px;
+}
+
+.hero-text {
+  flex: 1 0;
+}
+
+.hero-text h2 {
+  font-size: 48px;
+  color: #f9faf8;
+  font-weight: 900;
+}
+
+.hero-text p {
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+.img-placeholder {
+  background-color: grey;
+  width: 600px;
+  height: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1 0;
+}
+
+.img-placeholder p {
+  color: white;
+}
+
+.btn-hero {
+  margin-top: 10px;
+  background-color: #3882f6;
+  color: #f9faf8;
+  font-weight: 600;
 }
