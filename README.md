@@ -4,7 +4,7 @@ This is a solution to the [Landing Page project](https://www.theodinproject.com/
 
 ## 🔗 Links
 
-- **Live Preview:** [Click here to see the live demo](https://your-username.github.io/your-repo-name/)
+- **Live Preview:** [Click here to see the live demo](https://tetrisy.github.io/odin-landing-page/)
 
 ## 🧐 About The Project
 
