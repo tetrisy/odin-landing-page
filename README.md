@@ -2,6 +2,10 @@
 
 This is a solution to the [Landing Page project](https://www.theodinproject.com/lessons/foundations-landing-page) from The Odin Project's Foundations curriculum.
 
+## 📸 Screenshot
+
+![Project Screenshot](./images/page-ss.png)
+
 ## 🔗 Links
 
 - **Live Preview:** [Click here to see the live demo](https://tetrisy.github.io/odin-landing-page/)
