@@ -22,6 +22,11 @@
 header {
   background-color: #1f2937;
   display: flex;
+  justify-content: center;
+}
+
+header .container {
+  display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 10px 200px;
@@ -48,6 +53,11 @@ header a {
 
 .hero {
   background-color: #1f2937;
+  display: flex;
+  justify-content: center;
+}
+
+.hero .container {
   display: flex;
   padding: 150px 200px;
   gap: 150px;
@@ -184,4 +194,14 @@ h3 {
   color: #f9faf8;
   font-weight: 600;
   padding: 4px 40px;
+}
+
+/* Footer */
+
+footer {
+  display: flex;
+  justify-content: center;
+  background-color: #1f2937;
+  color: #f9faf8;
+  padding: 40px 0;
 }
