@@ -83,3 +83,61 @@ header a {
   color: #f9faf8;
   font-weight: 600;
 }
+
+/* Cards */
+
+h3 {
+  font-size: 36px;
+  color: #1f2937;
+  font-weight: 900;
+  padding: 40px 0;
+}
+
+.cards {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.cards-wrapper {
+  display: flex;
+  padding-bottom: 150px;
+  gap: 50px;
+}
+
+.card-wrapper {
+  flex: 0 0 200px;
+  text-align: center;
+}
+
+.card {
+  border: 3px solid #3882f6;
+  border-radius: 15px;
+  width: 200px;
+  height: 200px;
+  margin-bottom: 10px;
+}
+
+/* Quote */
+
+.quote {
+  background-color: #e5e7eb;
+  padding: 150px 200px;
+  display: flex;
+  flex-direction: column;
+}
+
+.quote p {
+  font-size: 36px;
+  color: #1f2937;
+  font-weight: 300;
+}
+
+.quote span {
+  align-self: flex-end;
+  font-weight: 900;
+  font-size: 20px;
+}
+
+/* Action */
