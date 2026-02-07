@@ -12,6 +12,11 @@
   padding: 8px 40px;
 }
 
+.container {
+  width: 100%;
+  max-width: 1280px;
+}
+
 /* Header */
 
 header {
@@ -125,19 +130,58 @@ h3 {
   background-color: #e5e7eb;
   padding: 150px 200px;
   display: flex;
+  justify-content: center;
+}
+
+.quote .container {
+  display: flex;
   flex-direction: column;
+  align-items: center;
+  gap: 10px;
 }
 
 .quote p {
   font-size: 36px;
   color: #1f2937;
   font-weight: 300;
+  padding: 0 160px;
 }
 
 .quote span {
   align-self: flex-end;
   font-weight: 900;
   font-size: 20px;
+  padding-right: 150px;
 }
 
 /* Action */
+
+.action {
+  display: flex;
+  justify-content: center;
+  padding: 100px 0px;
+}
+
+.action-box {
+  background-color: #3882f6;
+  display: flex;
+  justify-content: space-between;
+  padding: 75px 100px;
+}
+
+.action-text h4 {
+  color: #f9faf8;
+  font-size: 24px;
+}
+
+.action-text p {
+  color: #f9faf8;
+}
+
+.btn-action {
+  background-color: #3882f6;
+  border: 2px solid #f9faf8;
+  color: #f9faf8;
+  font-weight: 600;
+  padding: 4px 40px;
+}
